@@ -14,29 +14,25 @@
     <header class="position-sticky top-0 z-1">
         <nav class="navbar navbar-expand-lg bg-white navbar-light">
             <div class="container">
-              <a class="navbar-brand" href="index.html">BR Architects</a>
+              <a class="navbar-brand" href="#">BR Architects</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="projects.html">Project</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      About
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="about/Founder.html">Founder</a></li>
-                      <li><a class="dropdown-item" href="about/Company.html">Company</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="about/Team.html">Team</a></li>
-                    </ul>
-                  </li>
+                    <a class="nav-link active" aria-current="page" href="#projects-section">Project</a>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#about-section">About</a>
                   <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Contact</a>
+                    <a class="nav-link active" aria-current="page" href="#contact-section">Contact</a> 
                   </li>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about/Founder.html">Founder</a></li>
+                    <li><a class="dropdown-item" href="about/Company.html">Company</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="about/Team.html">Team</a></li>
+                  </ul>
                 </ul>
               </div>
             </div>
@@ -47,7 +43,7 @@
 
       <!-- hero -->
       <div id="hero-section" class="text-white">
-        <h1  id="br-word" class="d-inline-block py-2 px-4 me-2">BR</h1>
+        <h1  id="br-word" class="d-inline-block py-1 px-2 ">BR</h1>
         <h1 class="d-inline-block">Architects</h1>
       </div>
 
@@ -113,7 +109,7 @@
 
             <div class="row mt-3">
             <div class="col-12 mcol-md-6 col-lg-3 mb-3">
-               <div class="card border-0">
+               <div class="card mb-3 mb-lg-0 border-0">
                 <img src="assets/images/team2.jpg" alt="Team 1" class="img-fluid">
                 <h2 class="mt-2">John Doe</h2>
                 <h5 class="text-secondary mt-3 mb-2">CEO & Founder</h5>
@@ -122,7 +118,7 @@
                </div>
             </div>
                <div class="col-12 mcol-md-6 col-lg-3 mb-3">
-               <div class="card border-0">
+               <div class="card mb-3 mb-lg-0 border-0">
                 <img src="assets/images/team1.jpg" alt="Team 2" class="img-fluid">
                 <h2 class="mt-2">Jane Doe</h2>
                 <h5 class="text-secondary mt-3 mb-2">Architect</h5>
@@ -131,7 +127,7 @@
                </div>
             </div>
                <div class="col-12 mcol-md-6 col-lg-3 mb-3">
-               <div class="card border-0">
+               <div class="card mb-3 mb-lg-0 border-0">
                 <img src="assets/images/team3.jpg" alt="Team 3" class="img-fluid">
                 <h2 class="mt-2">Mike Ross</h2>
                 <h5 class="text-light mt-3 mb-2">Architect</h5>
@@ -152,36 +148,49 @@
         </div>
     </div>
       </div>
-      <div class="Flex-container4d">
-      <div class="container">
-      <h5>Let get in touch about your next project.</h5><br>
-      <form>
-        <input type="text" placeholder="Name" name="name" value="" id="Name"><br>
-        <br>
-        <input type="email" placeholder="Email" name="email" value="" id="Email"><br>
-        <br>
-        <input type="text" placeholder="Subject" name="subject" value="" id="subject"><br>
-        <br>
-        <input type="text" placeholder="Comment" name="Comment" value="" id="Comment"><br>
-        <br>
-        <br>
-      </div>
-        <button class="btn">Send Message</button>
-      </div>
-
-      <!-- map -->
-      <div class="mt-5">
-        <div class="container">
+         <!-- Contact -->
+         <div id="contact-section" class="py-5">
+          <div class="container">
             <div class="row">
-                <div class="col">
-                    <img src="assets/images/map.jpg" alt="map" class="img-fluid">
-                </div>
+              <div class="col">
+                <h3>Contact</h3>
+                <hr>
+                <p>Lets get in touch and talk about your next project.</p>
+              </div>
             </div>
-        </div>
-      </div>
-    </main>
+            <div class="row mt-3">
+                   <form>
+                    <div class="col-12 mb-3">
+                      <input type="text" name="name" placeholder="Name" class="form-control rounded-0">
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-12 mb-3">
+                        <input type="email" name="email" placeholder="Email" class="form-control rounded-0">
+                      </div>
+                      <div class="row mt-3">
+                        <div class="col-12 mb-3">
+                          <input type="subject" name="subject" placeholder="Subject" class="form-control rounded-0">
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-12 mb-3">
+                            <input type="comment" name="comment" placeholder="Comment" class="form-control rounded-0">
+                          </div>
+                          <div class="col-12">
+                            <button class="btn btn-dark rounded-0">Send Message</button>
+                          </div>
+                   </form>
+            </div>
+          </div>
+         </main>
+         <div class="container">
+             <div class="row">
+              <div class="col">
+                <img src="assets/images/map.jpg" alt="Map" class="img-fluid">
+              </div>
+             </div>
+            </div>
 
-    <footer class="bg-dark py-2">
+    <footer class="bg-dark py-3 mt-2">
         <div class="container">
             <div class="row">
                 <div class="col"></div>
