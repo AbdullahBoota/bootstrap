@@ -13,7 +13,7 @@ main {
 }
 
 #hero-section{
-    background-image: url("../bootsrap/assets/images/architect.jpg");
+    background-image: url("assets/images/architect.jpg");
     height: 95vh;
     background-size: cover;
     background-position: center;
